@@ -1,0 +1,7 @@
+---
+- name: Install NVIDIA drivers
+  apt:
+    name: nvidia-driver-535
+    state: present
+    update_cache: yes
+
